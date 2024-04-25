@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+  <script>
+    var num1=prompt("Enter first number ");
+    var num2=prompt("Enter second number ");
+    var opr=prompt("Enter the operation you want to perform ");
+
+    switch(opr){
+        case"add":
+        var res = parseInt(num1)+parseInt(num2);
+        alert (`${num1}+${num2} = ${res}`);
+        break;
+        case"sub":
+        var res= parseInt(num1)-parseInt(num2);
+        alert (`${num1}-${num2} = ${res}`);
+        break;
+        case"multi":
+        var res = parseInt(num1)*parseInt(num2);
+        alert (`${num1}*${num2} = ${res}`);
+        break;
+        case"div":
+        var res = parseInt(num1)/parseInt(num2);
+        alert (`${num1}/${num2} = ${res}`);
+        break;
+        default:
+            console.log("Invalid operation");
+
+    }
+  </script>  
+</body>
+</html>
