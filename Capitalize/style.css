@@ -1,0 +1,23 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap:20px
+
+}
+.form{
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+}
+#username{
+    width: 250px;
+}
+#check{
+    font-size: large;
+    color: azure;
+    background-color:green;
+}
